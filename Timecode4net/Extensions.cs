@@ -33,19 +33,19 @@ namespace Timecode4net
             switch (frameRate)
             {
                 case FrameRate.fps23_98:
-                    return 23.98;
+                    return 24000.0 / 1001.0;
                 case FrameRate.fps24:
                     return 24;
                 case FrameRate.fps25:
                     return 25;
                 case FrameRate.fps29_97:
-                    return 29.97;
+                    return 30000.0 / 1001.0;
                 case FrameRate.fps30:
                     return 30;
                 case FrameRate.fps50:
                     return 50;
                 case FrameRate.fps59_94:
-                    return 59.94;
+                    return 60000.0 / 1001.0;
                 case FrameRate.fps60:
                     return 60;
                 case FrameRate.msec:
